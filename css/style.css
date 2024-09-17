@@ -1,0 +1,161 @@
+:root{
+	--color-negro:#282d33;
+	--color-naranja: #f7b614;
+	--color-titulos:#2a2a32;
+	--color-contenido: #AAA;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+@font-face {
+	font-family: "Catamaran", sans-serif;
+	src:url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+}
+
+body{
+	color:var(--color-contenido);
+	font-family: "Catamaran", sans-serif;
+}
+
+header{
+	position: relative;
+	background-color: #282932;
+	width: 100%;
+	top:0;
+	border-bottom: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+#hero {
+	background-color: #282d33;
+	background-image: url("../img/slider-glob.png");
+	padding: 40px 30px;
+}
+
+#hero h1 {
+	color: #fff;
+	font-weight: 600;
+	font-size: 70px;
+}
+
+#hero h2 {
+	color: #f7b614;
+	font-weight: 600;
+	font-size: 70px;
+}
+
+#hero p {
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+#hero .btn {
+	background-color: #f7b614;
+	border-radius: 30px;
+	padding: 20px 30px;
+	font-weight: 700;
+}
+
+#populargoods {
+	padding: 50px 30px;
+}
+
+#populargoods h6 {
+	font-weight: 700;
+	color: #f7b614;
+	text-align: center;
+}
+
+#populargoods h1 {
+	font-weight: 600;
+	color: #2a2a32;
+	text-align: center;
+}
+
+#populargoods .fa-solid, .fa-regular {
+	color: #f7b614;
+}
+
+#populargoods .burger-info h6 {
+	color: #2a2a32;	
+}
+
+#populargoods .burger-info p {
+	color: #2a2a32;	
+	text-align: center;
+}
+
+#populargoods .food-price p {
+	font-weight: 700;
+}
+
+#populargoods .btn {
+	background-color: #f7b614;
+	border-radius: 30px;
+	padding: 10px 30px;
+	font-weight: 700;
+}
+
+#sitathome {
+	background-color: #282d33;
+}
+
+#sitathome h1 {
+	color: #fff;
+	font-weight: 600;
+	font-size: 60px;
+	padding: 50px 20px 0px 20px;
+}
+
+#sitathome h2 {
+	color: #f7b614;
+	font-weight: 600;
+	font-size: 60px;
+	padding: 0px 20px 20px 20px;
+}
+
+#sitathome p {
+	padding: 0px 50px 50px 20px;
+	color: #AAA
+}
+
+#sitathome .btn {
+	background-color: #f7b614;
+	border-radius: 30px;
+	padding: 20px 30px;
+	font-weight: 700;
+}
+
+footer{
+	background-color: #282932;
+	background-image: url(../img/footer-bg.png);
+	background-size: cover;
+	padding-top: 40px;
+	color: rgba(255, 255, 255, 0.55);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+footer p span{
+	color: #f7b614;
+}
+footer #copy{
+	padding: 20px 0;
+	margin-top: 5%;
+	color: #fff;
+	border-top: 1px dashed rgba(255, 255, 255, 0.15);
+}
+
+.owl-carousel .owl-dots {
+    text-align: center;
+}
+.owl-carousel .owl-dot {
+    height: 11px;
+    width: 11px;
+    border: 2px solid #a49fba !important;
+    border-radius: 50%;
+    margin: 35px 6px;
+}
+.owl-carousel .owl-dot.active {
+    background-color: #fb397d;
+    border: 0 !important;
+}
